@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>MagiNotes</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+<section class="">
+    <h1 class="shadow-sm">MagiNotes</h1>
+    <div class="flex">
+        <div class="row">
+            <div class="col">
+                <button type="button"
+                        onclick="bold()"
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        title="Bold Text">
+                    Bold
+                </button>
+                <button type="button"
+                        onclick="italic()"
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        title="Italic Text">
+                    Italic
+                </button>
+                <button type="button"
+                        onclick="left()"
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        title="Left Align">
+                    Left
+                    <i class="fas fa-align-left"></i>
+                </button>
+                <button type="button"
+                        onclick="center()"
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        title="Center Align">
+                    Center
+                    <i class="fas fa-align-center"></i>
+                </button>
+                <button type="button"
+                        onclick="right()"
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        title="Right Align">
+                    Right
+                    <i class="fas fa-align-right"></i></button>
+                <button type="button"
+                        onclick="upper()"
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        title="Uppercase Text">
+                    Upper Case
+                </button>
+                <button type="button"
+                        onclick="lower()"
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        title="Lowercase Text">
+                    Lower Case
+                </button>
+                <button type="button"
+                        onclick="cap()"
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        title="Capitalize Text">
+                    Capitalize
+                </button>
+<!--                <button type="button"
+                        onclick="clear()"
+                        class="btn shadow-sm btn-outline-primary side"
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        title="Tooltip on top">
+                    Clear Text
+                </button>-->
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-3 col-sm-3">
+        </div>
+        <div class="col-md-6 col-sm-9">
+            <div class="flex">
+                <label for="textarea1"></label>
+                <textarea id="textarea1"
+                          class="input shadow"
+                          name="name"
+                          rows="15"
+                          cols="100"
+                          placeholder="Your text here ">
+					</textarea>
+            </div>
+        </div>
+        <div class="col-md-3">
+        </div>
+    </div>
+</section>
+<br>
+<br>
+<script src="home.js"></script>
+</body>
+
+</html>
